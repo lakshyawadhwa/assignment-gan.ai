@@ -23,3 +23,7 @@ This contains a list of all available products.
 ### Cart page (/cart)
 
 This contains all the items in the cart and an order summary.
+
+### Additional Functionality
+
+On products page, you can filter products on the basis of categories.
