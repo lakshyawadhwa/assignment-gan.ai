@@ -1,0 +1,38 @@
+a {
+	text-decoration: none;
+	color: unset;
+}
+.page-link-card {
+	display: flex;
+	align-items: center;
+	width: 250px;
+	height: 100px;
+	cursor: pointer;
+	@media screen and (max-width: 700px) {
+		width: unset;
+		height: unset;
+	}
+	img {
+		width: 100px;
+		height: 100px;
+		@media screen and (max-width: 700px) {
+			width: 50px;
+			height: 50px;
+		}
+	}
+	.link-name {
+		display: flex;
+		flex-direction: column;
+		font-size: 10px;
+		margin-left: 0.5rem;
+		.title {
+			font-weight: 900;
+			font-size: 14px;
+		}
+		.description {
+			@media screen and (max-width: 700px) {
+				display: none;
+			}
+		}
+	}
+}
