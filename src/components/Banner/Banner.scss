@@ -1,0 +1,41 @@
+.banner {
+	height: 200px;
+	width: 100%;
+	margin-bottom: 150px;
+	@media screen and (max-width: 700px) {
+		width: unset;
+		height: 100px;
+		margin-bottom: 100px;
+	}
+	.banner-background {
+		background-color: #d3bbaf;
+		height: inherit;
+		position: relative;
+		.cart-icon-wrapper {
+			display: inline-flex;
+			position: absolute;
+			right: 1rem;
+			top: 1rem;
+		}
+		.page-link-wrapper {
+			display: flex;
+			background: white;
+			width: 80%;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			top: 50%;
+			height: 150px;
+			justify-content: space-around;
+			align-items: center;
+			box-shadow: 1px 1px 21px -4px rgb(0 0 0 / 75%);
+			@media screen and (max-width: 700px) {
+				height: unset;
+				padding: 1rem 2.5%;
+				width: 95%;
+				top: 80%;
+				justify-content: space-between;
+			}
+		}
+	}
+}

@@ -1,4 +1,5 @@
 # assignment-gan.ai
+
 Assignment for Gan.ai
 
 ### `npm start`
@@ -12,10 +13,13 @@ You may also see any lint errors in the console.
 The app contains three functional pages
 
 ### Homepage
-  This contains a list of featured products and additional links.
+
+This contains a list of featured products and additional links.
 
 ### Product page (/products)
-  This contains a list of all available products.
+
+This contains a list of all available products.
 
 ### Cart page (/cart)
-  This contains all the items in the cart and an order summary.
+
+This contains all the items in the cart and an order summary.
