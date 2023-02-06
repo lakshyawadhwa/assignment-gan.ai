@@ -22,6 +22,7 @@ This contains a list of all the items in the cart and an order summary.
 
 On products page, you can filter products on the basis of categories.
 
+### To run the app locally, run the command:
 ### `npm start`
 
 Runs the app in the development mode.\
